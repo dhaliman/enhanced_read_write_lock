@@ -1,2 +1,2 @@
-rootProject.name = "assignment1_9154"
+rootProject.name = "enhanced_read_write_lock"
 
