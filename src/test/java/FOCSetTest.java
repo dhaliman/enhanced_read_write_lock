@@ -80,6 +80,9 @@ class FOCSetTest {
 
         data = new int[]{-1, -1, -1, -1, -1, -1};
         assertEquals(-1, exists(data, 10));
+
+        data = new int[]{-1, -1, -1, -1, -1, 10};
+        assertEquals(5, exists(data, 10));
     }
 
     @Test

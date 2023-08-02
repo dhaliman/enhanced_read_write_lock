@@ -1,12 +1,10 @@
-
-
-public class FOCSet {
+public class FOCRWSet {
 
     private final int[] data;
     // Always one greater than the index of the last element.
     private int maxIndex;
 
-    public FOCSet(int n) {
+    public FOCRWSet(int n) {
         this.data = new int[n];
         this.maxIndex = 0;
     }
@@ -105,3 +103,4 @@ public class FOCSet {
         }
     }
 }
+
